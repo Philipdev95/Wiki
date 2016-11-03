@@ -1,0 +1,4 @@
+Hmmm. Vad är det här för något? Den bara dyker upp "for no reason".
+Tydligen skapas osynliga filer automatiskt som kallas DS_Store.
+Vet inte vad dem gör men den störde lite i programmet så jag tog bort den med hjälp av detta: 
+sudo find / -name ".DS_Store" -depth -exec rm {} \;

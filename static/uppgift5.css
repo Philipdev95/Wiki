@@ -1,0 +1,239 @@
+html, body{
+    background-image: url(blurryback.png);
+    background-color: #bbb;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    color: #fff;
+    z-index: 2;
+    height: auto;
+    width: 98%;
+    background-color: #111;
+    padding: 1%;
+    z-index: 1;
+    text-align: center;
+    box-shadow: 0px 0px 5px 10px #111;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+header h1, h6{
+    margin: 0%;
+}
+header h6{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+header hr{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wrapper{
+    z-index: 1;
+    min-height: 600px;
+    background-color: #999;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 10px 2px #999;
+}
+#menu{
+    
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    text-align: center;
+}
+#menu a{
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    width: 55%;
+}
+#menu button{
+    font-size: 13px;
+    color: #fff;
+    background-color: #aaa;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    max-width: 50%;
+}
+button:hover{
+    box-shadow: 0px 0px 3px 1px #fff
+}
+.start{
+    
+}
+#menu2{
+    display: none;
+}
+/*   
+        BILD CSS   
+*/
+#loga{
+    z-index: 4;
+    position: fixed;
+    height: 9%;
+    margin-top: 0.1%;
+    margin-left: -49%;
+    border-radius: 50%;
+}
+#loga:hover{
+    box-shadow: 0px 0px 10px 3px #a94;
+}
+#logolink{
+    border-radius: 50%;
+}
+/*
+
+*/
+#main{
+    width: 100%;
+}
+.starthr{
+    width: 40%;
+}
+#firstbox{
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-top: 1px;
+    background-color: #999;
+}
+#firstbox h2{
+    font-size: 30px;
+}
+#firstbox a{
+    transition: 0.3s;
+    display: inline-block;
+    width: 30%;
+    padding: 5%;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    border-color: #fff;
+}
+#firstbox a:hover{
+    background-color: #eee;
+    color: #a94;
+    border-color: #a94;
+    box-shadow: 0px 0px 10px 3px #a94;
+}
+#editbutton{
+    float: right;
+    margin-top: -60px;
+    margin-right: 4%;
+    height: 40px;
+}
+/*OM KNAPP*/
+#om{
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-top: 1px;
+    background-color: #999;
+}
+#om a{
+    transition: 0.3s;
+    display: inline-block;
+    width: 75%;
+    padding: 5%;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    border-color: #fff;
+}
+#om a:hover{
+    background-color: #eee;
+    color: #a94;
+    border-color: #a94;
+    box-shadow: 0px 0px 10px 3px #a94;
+}
+footer{
+    text-align: center;
+    color: #ccc;
+}
+#footplate{
+    font-size: 15px;
+    padding: 0.5%;
+    color: #fff;
+    background-color: #e0d780;
+}
+/*
+    SKAPA ARTIKEL
+*/
+#artikelinput{
+    display: block;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: #fff;
+    padding: 10%;
+}
+#artikelinput form{
+    margin-top: 30px;
+    text-align: center;
+}
+textarea{
+    margin: 20px;
+}
+#add{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (min-width: 700px){
+    #menu{
+        display: none;
+    }
+    #menu2{
+        display: block;
+        position: fixed;
+        margin-top: 3%;
+        width: 15%;
+    }
+    #menu2 a{
+        padding: 3%;
+        display: block;
+        width: 193px;
+        height: 40px;
+        color: #fff;
+        background-color: #333;
+        text-align: center;
+        margin-top: 1px
+    }
+    #firstbox a, #om a{
+        font-size: 30px;
+    }
+    #firstbox{
+        margin-top: 3%;
+    }
+}
